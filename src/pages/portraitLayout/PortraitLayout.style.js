@@ -1,13 +1,20 @@
 import styled from "styled-components"
 
 export const PageContainer = styled.div`
-    background:rgb(58, 61, 70);
-    height: 100dvh;
-    width: 100dvw;
+    background: rgb(58, 61, 70);
+    height: 100vh;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     align-items: center;
+    overflow-y: auto; /* permite rolagem vertical */
+    scrollbar-width: none; /* Firefox */
+    
+    &::-webkit-scrollbar {
+        display: none; /* Chrome, Safari e Edge */
+    }
 `;
+
 
 export const ProfileBackground = styled.div`
     background:rgb(67, 176, 243);
@@ -16,9 +23,10 @@ export const ProfileBackground = styled.div`
 `;
 
 export const ProfileImage = styled.img`
+    display: flex;
     position: absolute;
-    width: 400px;
-    height: auto;
+    height: 400px;
+    width: auto;
     border-radius: 50%;
     border: 10px solid rgb(58, 61, 70);
     margin-top: 100px;

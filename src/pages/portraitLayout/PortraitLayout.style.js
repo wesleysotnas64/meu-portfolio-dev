@@ -65,6 +65,7 @@ export const AboutMe = styled.div`
 
     p {
         font-size: 14pt;
+        font-weight: 100;
         text-align: justify;
 
         margin-bottom: 15px;
@@ -72,13 +73,28 @@ export const AboutMe = styled.div`
 `;
 
 export const MyContacts = styled.div`
-    background: rgb(0, 0, 0);;
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     width: 100%;
     padding: 20px;
     margin-top: 30px;
     display: flex;
     gap: 20px;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    
+    font-family: "Open Sans", sans-serif;
+
+    h2 {
+        font-size: 16pt;
+        font-weight: 400;
+    }
+    
+    div#icons {
+        display: flex;
+        gap: 20px;
+    }
 
     a img {
         width: 40px;

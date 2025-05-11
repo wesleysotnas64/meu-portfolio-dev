@@ -70,3 +70,25 @@ export const AboutMe = styled.div`
         margin-bottom: 15px;
     }
 `;
+
+export const MyContacts = styled.div`
+    background: rgb(0, 0, 0);;
+    width: 100%;
+    padding: 20px;
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+
+    a img {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        border: 1px solid rgb(255, 255, 255);
+        transition: transform 0.2s;
+
+        &:hover {
+            transform: scale(1.2);
+        }
+    }
+`;

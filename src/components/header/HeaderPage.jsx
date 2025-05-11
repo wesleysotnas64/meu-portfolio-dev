@@ -4,7 +4,7 @@ function HeaderPage() {
     return(
         <>
             <MainContainer>
-                <h2>Wesley Santos</h2>
+                <h2><strong>Wesley Santos</strong> <label id="profissao">Programador</label></h2>
                 <MenuLinks>
                     <label>Info</label> |
                     <label>Projetos</label> |

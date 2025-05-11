@@ -11,16 +11,26 @@ export const MainContainer = styled.div`
     align-items: center;
     justify-content: space-around;
     gap: 20px;
+    font-family: "Roboto", sans-serif;
 
     h2 {
         font-size: 16pt;
+        text-decoration: none;
+    }
+
+    strong {
+        font-weight: bold;
+    }
+
+    label#profissao {
+        font-weight: 200;
     }
     
 `;
 
 export const MenuLinks = styled.div`
     display: flex;
-    gap: 20px;
+    gap: 10px;
     
     label {
         transition: 0.2s;

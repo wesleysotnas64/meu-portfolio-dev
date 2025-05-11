@@ -1,4 +1,10 @@
 *{
   padding: 0px;
   margin: 0px;
+
+  scrollbar-width: none;
+
+  &::-webkit-scrollbar{
+    display: none;
+  }
 }

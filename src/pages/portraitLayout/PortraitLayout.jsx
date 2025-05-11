@@ -8,13 +8,13 @@ function PortraitLayout() {
             <PageContainer>
                 {/* <HeaderPage /> */}
                 <ProfileBackground />
+                 
                 
                 <ProfileImage
                     src={profileImage}
                     alt="Minha foto de perfil"
                 />
 
-                
                 <ProfileInfo>
                     <label id="my-name">Wesley Santos</label>
                     <label id="my-profession">Programador</label>

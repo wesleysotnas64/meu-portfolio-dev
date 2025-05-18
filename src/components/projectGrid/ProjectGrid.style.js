@@ -1,0 +1,7 @@
+import styled from "styled-components";
+
+export const GridContainer = styled.div`
+    display: grid;
+    /* justify-items: center; */
+    /* width: 80%; */
+`;

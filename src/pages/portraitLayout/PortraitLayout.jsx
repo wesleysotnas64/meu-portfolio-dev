@@ -28,10 +28,45 @@ function PortraitLayout() {
                 <AboutMe />
 
                 <SectionTitle title="Meus Projetos"/>
-                <ProjectGrid columns={2}>
+                <ProjectGrid>
                     <ProjectCard
                         title="TODO List"
                         description="Um projeto full-stack simples que integra Web-API (C# e EF) e projeto React."
+                        backgroundImage={profileImage}
+                    />
+                    <ProjectCard
+                        title="Portfólio"
+                        description="Um portfólio feito em React para apresentar meus projetos e habilidades."
+                        backgroundImage={profileImage}
+                    />
+                    <ProjectCard
+                        title="Portfólio"
+                        description="Um portfólio feito em React para apresentar meus projetos e habilidades."
+                        backgroundImage={profileImage}
+                    />
+                    <ProjectCard
+                        title="Portfólio"
+                        description="Um portfólio feito em React para apresentar meus projetos e habilidades."
+                        backgroundImage={profileImage}
+                    />
+                    <ProjectCard
+                        title="Portfólio"
+                        description="Um portfólio feito em React para apresentar meus projetos e habilidades."
+                        backgroundImage={profileImage}
+                    />
+                    <ProjectCard
+                        title="Portfólio"
+                        description="Um portfólio feito em React para apresentar meus projetos e habilidades."
+                        backgroundImage={profileImage}
+                    />
+                    <ProjectCard
+                        title="Portfólio"
+                        description="Um portfólio feito em React para apresentar meus projetos e habilidades."
+                        backgroundImage={profileImage}
+                    />
+                    <ProjectCard
+                        title="Portfólio"
+                        description="Um portfólio feito em React para apresentar meus projetos e habilidades."
                         backgroundImage={profileImage}
                     />
                     <ProjectCard

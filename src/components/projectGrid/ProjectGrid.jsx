@@ -1,11 +1,11 @@
-import { GridContainer } from "./ProjectGrid.style"
+import { GridContainer } from "./ProjectGrid.style";
 
-function ProjectGrid({ columns, children }) {
+function ProjectGrid({ children }) {
     return (
-        <GridContainer style={{ gridTemplateColumns: `repeat(${columns}, 1fr)` }}>
+        <GridContainer>
             {children}
         </GridContainer>
     );
 }
 
-export default ProjectGrid
+export default ProjectGrid;

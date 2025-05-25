@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const MainDiv = styled.div`
-    width: 100%;
+    width: 80%;
     color:rgb(255, 255, 255);
     font-family: "Roboto", sans-serif;
     font-size: 20pt;

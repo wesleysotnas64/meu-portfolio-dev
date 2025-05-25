@@ -17,7 +17,7 @@ export const PageContainer = styled.div`
 
 export const ProfileBackground = styled.div`
     background: 
-        linear-gradient(rgba(8, 89, 170, 0.5), rgba(58, 61, 70, 1)),
+        linear-gradient(rgba(9, 95, 182, 0.5), rgba(58, 61, 70, 1)),
         url(${backgroundImage});
     background-size: cover;
     background-position: center;

@@ -1,4 +1,5 @@
 import styled from "styled-components"
+import backgroundImage from "../../assets/img/background.jpg";
 
 export const PageContainer = styled.div`
     background: rgb(58, 61, 70);
@@ -15,7 +16,11 @@ export const PageContainer = styled.div`
 `;
 
 export const ProfileBackground = styled.div`
-    background:rgb(67, 176, 243);
+    background: 
+        linear-gradient(rgba(8, 89, 170, 0.5), rgba(58, 61, 70, 1)),
+        url(${backgroundImage});
+    background-size: cover;
+    background-position: center;
     width: 100%;
     height: 300px;
 `;

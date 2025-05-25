@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import PortraitLayout from './pages/portraitLayout/PortraitLayout';
 import './App.css';
+import LandscapeLayout from './pages/landscapeLayout/LandscapeLayout';
 
 
 function App() {
@@ -24,7 +25,7 @@ function App() {
 
   return (
     <>
-      {isPortrait ? <PortraitLayout /> : <h1>LandscapeLayout</h1>}
+      {isPortrait ? (<PortraitLayout />) : (<LandscapeLayout />)}
     </>
   );
 }

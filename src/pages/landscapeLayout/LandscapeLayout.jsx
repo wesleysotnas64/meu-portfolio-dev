@@ -7,9 +7,9 @@ import ProjectCard from "../../components/projectCard/ProjectCard";
 import SectionTitle from "../../components/sectionTitle/SectionTitle";
 import ProjectGrid from "../../components/projectGrid/ProjectGrid";
 
-import { PageContainer, ProfileBackground, ProfileImage } from "./PortraitLayout.style";
+import { PageContainer, ProfileBackground, ProfileImage } from "./LandscapeLayout.style";
 
-function PortraitLayout() {
+function LandscapeLayout() {
     return(
         <>
             <PageContainer>
@@ -44,4 +44,4 @@ function PortraitLayout() {
     )
 }
 
-export default PortraitLayout
+export default LandscapeLayout

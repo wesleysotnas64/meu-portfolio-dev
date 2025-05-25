@@ -6,15 +6,22 @@ export const MainContainer = styled.div`
 
     width: 100%;
     height: 50px;
-    font-size: 16pt;
+    font-size: 11pt;
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    gap: 20px;
+    justify-content: center;
     font-family: "Roboto", sans-serif;
+    
+    section {
+        display: flex;
+        width: 80%;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+    }
 
     h2 {
-        font-size: 16pt;
+        font-size: 12pt;
         text-decoration: none;
     }
 

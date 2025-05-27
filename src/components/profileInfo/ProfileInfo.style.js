@@ -8,12 +8,14 @@ export const MainDiv = styled.div`
     
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: ${({ landscape }) => (landscape ? "row" : "column")};
 
     margin-top: 10px;
+    gap: ${({landscape}) => (landscape ? "20px" : "0px")};
 
     #my-name {
         font-weight: 500;
-        margin-right: 20px;
     }
 
     #my-profession {

@@ -4,6 +4,7 @@ import AboutMe from "../../components/aboutMe/AboutMe";
 import ProfileInfo from "../../components/profileInfo/ProfileInfo";
 import SectionTitle from "../../components/sectionTitle/SectionTitle";
 import ProjectGridFullStack from "../../components/projectGridFullStack/ProjectGridFullStack";
+import ProjectGridGames from "../../components/projectGridGames/ProjectGridGames";
 
 import profileImage from "../../assets/img/profile.png"
 
@@ -30,7 +31,8 @@ function LandscapeLayout() {
                 <SectionTitle title="Full-Stack"/>
                 <ProjectGridFullStack />
 
-                <SectionTitle title="Games"/>
+                <SectionTitle title="Games" />
+                <ProjectGridGames />
 
                 <FooterPage />
 

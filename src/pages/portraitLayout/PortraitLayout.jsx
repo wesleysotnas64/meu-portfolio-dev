@@ -3,14 +3,13 @@ import HeaderPage from "../../components/header/HeaderPage";
 import FooterPage from "../../components/footer/FooterPage";
 import AboutMe from "../../components/aboutMe/AboutMe";
 import ProfileInfo from "../../components/profileInfo/ProfileInfo";
-import ProjectCard from "../../components/projectCard/ProjectCard";
 import SectionTitle from "../../components/sectionTitle/SectionTitle";
 import ProjectGridFullStack from "../../components/projectGridFullStack/ProjectGridFullStack";
 
 import profileImage from "../../assets/img/profile.png"
-import deskImage from "../../assets/img/desk.jpg"
 
 import { PageContainer, ProfileBackground, ProfileImage } from "./PortraitLayout.style";
+import ProjectGridGames from "../../components/projectGridGames/ProjectGridGames";
 
 function PortraitLayout() {
     return(
@@ -33,6 +32,9 @@ function PortraitLayout() {
                 <SectionTitle title="Meus Projetos"/>
                 <SectionTitle title="Full-Stack"/>
                 <ProjectGridFullStack />
+
+                <SectionTitle title="Games" />
+                <ProjectGridGames />
 
                 <FooterPage />
 

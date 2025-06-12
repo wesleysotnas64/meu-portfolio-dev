@@ -5,7 +5,7 @@ import AboutMe from "../../components/aboutMe/AboutMe";
 import ProfileInfo from "../../components/profileInfo/ProfileInfo";
 import ProjectCard from "../../components/projectCard/ProjectCard";
 import SectionTitle from "../../components/sectionTitle/SectionTitle";
-import ProjectGrid from "../../components/projectGrid/ProjectGrid";
+import ProjectGridFullStack from "../../components/projectGridFullStack/ProjectGridFullStack";
 
 import profileImage from "../../assets/img/profile.png"
 import deskImage from "../../assets/img/desk.jpg"
@@ -32,13 +32,7 @@ function PortraitLayout() {
 
                 <SectionTitle title="Meus Projetos"/>
                 <SectionTitle title="Full-Stack"/>
-                <ProjectGrid>
-                    <ProjectCard
-                        title="TODO List"
-                        description="Um projeto full-stack simples que integra Web-API (C# e EF) e projeto React."
-                        backgroundImage={deskImage}
-                    />
-                </ProjectGrid>
+                <ProjectGridFullStack />
 
                 <FooterPage />
 

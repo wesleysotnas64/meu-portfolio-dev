@@ -14,7 +14,7 @@ function AboutMe() {
                     Também tenho experiência com <strong>JavaScript</strong> e <strong>React</strong> para o desenvolvimento frontend. Atualmente, estou aprofundando meus conhecimentos em <strong>Java</strong> e <strong>Spring Boot</strong> para melhorar como desenvolvedor full stack.
                 </p>
                 <p>
-                    Gosto de explorar novas tecnologias e, no tempo livre, dedico-me à criação de jogos digitais.
+                    Gosto de explorar novas tecnologias e, no tempo livre, dedico-me à criação e estudo de jogos digitais e analógicos voltados para o contexto educacional.
                 </p>
             </MainDiv>
         </>

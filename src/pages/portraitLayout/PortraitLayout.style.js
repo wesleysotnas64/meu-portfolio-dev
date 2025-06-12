@@ -2,7 +2,7 @@ import styled from "styled-components"
 import backgroundImage from "../../assets/img/background.jpg";
 
 export const PageContainer = styled.div`
-    background: rgb(58, 61, 70);
+    background: rgb(3,7,17);
     width: 100vw;
     display: flex;
     flex-direction: column;
@@ -17,7 +17,7 @@ export const PageContainer = styled.div`
 
 export const ProfileBackground = styled.div`
     background: 
-        linear-gradient(rgba(9, 95, 182, 0.5), rgba(58, 61, 70, 1)),
+        linear-gradient(rgba(9, 95, 182, 0.5), rgba(3,7,17, 1)),
         url(${backgroundImage});
     background-size: cover;
     background-position: center;
@@ -30,7 +30,7 @@ export const ProfileImage = styled.img`
     height: auto;
     width: 300px;
     border-radius: 50%;
-    border: 10px solid rgb(58, 61, 70);
+    border: 10px solid rgb(3,7,17);
     margin-top: -250px;
     z-index: 2;
 `;

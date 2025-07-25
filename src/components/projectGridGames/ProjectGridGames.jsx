@@ -2,6 +2,7 @@ import ProjectCard from "../projectCard/ProjectCard";
 import { GridContainer } from "./ProjectGridGames.style";
 import pongImage from "../../assets/img/pong.jpg";
 import snakeImage from "../../assets/img/snake.jpg";
+import minefieldImage from "../../assets/img/minefield.jpg";
 
 function ProjectGridGames() {
     return (
@@ -17,6 +18,12 @@ function ProjectGridGames() {
                 description="Uma versão minimalista do clássico Snake. Desenvolvido na Unity e outras ferramentas de desenvolvimento de jogos"
                 backgroundImage={snakeImage}
                 projectLink="https://wesleysotnas64.itch.io/purple-snake"
+            />
+            <ProjectCard
+                title="Minefeld"
+                description="Uma versão clássica de Campo Minado. Disponível para jogar diretamente no navegador, tanto no PC quanto no celular. Desenvolvido na Unity."
+                backgroundImage={minefieldImage}
+                projectLink="https://wesleysotnas64.itch.io/minefield"
             />
             
         </GridContainer>

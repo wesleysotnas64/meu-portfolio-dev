@@ -3,6 +3,7 @@ import { GridContainer } from "./ProjectGridGames.style";
 import pongImage from "../../assets/img/pong.jpg";
 import snakeImage from "../../assets/img/snake.jpg";
 import minefieldImage from "../../assets/img/minefield.jpg";
+import isometricCubeImage from "../../assets/img/isometric-cube.jpg";
 
 function ProjectGridGames() {
     return (
@@ -24,6 +25,13 @@ function ProjectGridGames() {
                 description="Uma versão clássica de Campo Minado. Disponível para jogar diretamente no navegador, tanto no PC quanto no celular. Desenvolvido na Unity."
                 backgroundImage={minefieldImage}
                 projectLink="https://wesleysotnas64.itch.io/minefield"
+            />
+
+            <ProjectCard
+                title="Isometric Cube"
+                description="Recriando um jogo de lógica bem conhecido do Rachacuca, desenvolvido com Unity."
+                backgroundImage={isometricCubeImage}
+                projectLink="https://wesleysotnas64.itch.io/isometric-cube"
             />
             
         </GridContainer>

@@ -28,11 +28,12 @@ function LandscapeLayout() {
                 <AboutMe />
 
                 <SectionTitle title="Meus Projetos"/>
-                <SectionTitle title="Full-Stack"/>
-                <ProjectGridFullStack />
 
                 <SectionTitle title="Games" />
                 <ProjectGridGames />
+
+                <SectionTitle title="Full-Stack"/>
+                <ProjectGridFullStack />
 
                 <FooterPage />
 
